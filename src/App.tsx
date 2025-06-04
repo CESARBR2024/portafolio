@@ -1,4 +1,4 @@
-import Welcome from "./sections/Welcome";
+import Welcome from "./sections/welcome";
 
 function App() {
   return (
