@@ -54,6 +54,20 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+.tilted-box{
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  transform: rotate(-8deg);
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -66,3 +80,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+

@@ -1,0 +1,90 @@
+body {
+    background: radial-gradient(circle at top right, #2d004d, #000000 70%);
+    color: white;
+    font-family: 'Sora', sans-serif;
+  
+  
+  
+  
+}
+
+.roles-vertical {
+    
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 2rem;
+    background: linear-gradient(to right, #7e10f4, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.title-presentation{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 15%;
+}
+
+.description{
+    width: 90%;
+    background: transparent;
+    font-size: 0.7rem;
+    color: rgb(154, 153, 153);
+    padding-top: 0.5rem;
+}
+
+.btn-download-cv{
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 0.5rem;
+    width: 40px;
+    height: 32px;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    color: #7e10f4;
+    font-weight: 600;
+    border:  1px solid #892ced;
+}
+
+.button-social {
+  width: 40px;               /* Aumenta el tamaño del botón */
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;             /* Necesario para centrar ícono */
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;         /* Tamaño del ícono */
+  color: #7e10f4;
+  font-weight: 600;
+  border: 1px solid #892ced;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.tilted-box{
+    width: 210px;
+    height:210px;
+    background-color: transparent;
+    transform: rotate(+4deg);
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px solid ;
+    border-radius: 1.5rem;
+}
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate((+4deg));
+}
